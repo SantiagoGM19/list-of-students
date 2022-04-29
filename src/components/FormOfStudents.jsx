@@ -43,14 +43,6 @@ const FormOfStudents = () => {
         <button type="submit" class="btn btn-primary" onClick={onAddStudent}>Submit</button>
         <ListOfStudents students={list} setList={setList}/>
       </form>
-      {/* <form>
-        <label>Name</label>
-        <input onChange={addName} type="text" name="name" />
-        <label>Last name</label>
-        <input onChange={addLastName} type="text" name="lastName" />
-        <button onClick={onAddStudent}>add student</button>
-        <ListOfStudents students={list} />
-      </form> */}
     </div>
   )
 }
