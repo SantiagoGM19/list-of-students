@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import ListOfStudents from './components/ListOfStudents'
+import FormOfStudents from './components/FormOfStudents'
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
       <h1>{number}</h1>
       <button onClick={addToNumber}>+</button>
       <button onClick={substractToNumber}>-</button>
-      <ListOfStudents />
+      <FormOfStudents />
     </div>
   )
 }
