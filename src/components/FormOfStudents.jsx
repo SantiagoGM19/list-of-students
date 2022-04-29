@@ -30,7 +30,6 @@ const FormOfStudents = () => {
 
   return (
     <div>
-      <h1>Hello from the list of students</h1>
       <form>
         <div class="mb-3">
           <label for="name" class="form-label">Name</label>
